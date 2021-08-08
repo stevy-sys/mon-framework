@@ -1,1 +1,7 @@
 /vendor/
+
+!/app/.gitkeep 
+!/public/.gitkeep 
+!/routes/.gitkeep 
+!/database/.gitkeep 
+!/views/.gitkeep 
