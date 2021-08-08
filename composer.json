@@ -1,0 +1,21 @@
+{
+    "name": "stevy/framework",
+    "description": "framework inspirer de laravel",
+    "type": "library",
+    "license": "stevy-sys",
+    "autoload": {
+        "psr-4": {
+            "Router\\": "routes/",
+            "App\\": "app/",
+            "Database\\": "database/"
+        }
+    },
+    "authors": [
+        {
+            "name": "stevy-sys",
+            "email": "stevyralambomanana@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
