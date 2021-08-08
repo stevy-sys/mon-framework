@@ -1,7 +1,6 @@
 /vendor/
 
-!/app/.gitkeep 
-!/public/.gitkeep 
-!/routes/.gitkeep 
-!/database/.gitkeep 
-!/views/.gitkeep 
+!/app/Models/.gitkeep 
+!/app/Validations/.gitkeep 
+!/public/css/.gitkeep 
+!/public/js/.gitkeep 
