@@ -2,9 +2,6 @@
 
 namespace App\Controllers;
 
-use App\Controllers\Controller;
-
-
 class ExampleController extends Controller
 {
     /**
