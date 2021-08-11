@@ -1,6 +1,6 @@
 <?php
 
-namespace Router;
+namespace Core\Routes;
 
 use Core\Database\DBConnection;
 

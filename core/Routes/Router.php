@@ -1,8 +1,10 @@
 <?php
 
-namespace Router;
+namespace Core\Routes;
 
-use Router\Route;
+
+
+use Core\Routes\Route;
 use Core\Exception\NotFoundException;
 
 
