@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Models;
+namespace Core\Model;
 
 use PDO;
-use Database\DBConnection;
+use Core\Database\DBConnection;
 
 abstract class Model {
 

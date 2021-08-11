@@ -3,7 +3,8 @@
 namespace Router;
 
 use Router\Route;
-use App\Exceptions\NotFoundException;
+use Core\Exception\NotFoundException;
+
 
 
 /**

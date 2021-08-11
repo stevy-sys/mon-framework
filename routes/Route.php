@@ -2,7 +2,9 @@
 
 namespace Router;
 
-use Database\DBConnection;
+use Core\Database\DBConnection;
+
+
 
 class Route {
 

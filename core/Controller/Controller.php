@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Controllers;
+namespace Core\Controller;
 
-use Database\DBConnection;
+use Core\Database\DBConnection;
+
 
 abstract class Controller {
 

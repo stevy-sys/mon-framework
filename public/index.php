@@ -1,7 +1,7 @@
 <?php
 
 use Router\Router;
-use App\Exceptions\NotFoundException;
+use Core\Exception\NotFoundException;
 
 require '../vendor/autoload.php';
 
