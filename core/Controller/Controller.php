@@ -4,7 +4,6 @@ namespace Core\Controller;
 
 use Core\Database\DBConnection;
 
-
 abstract class Controller {
 
     protected $db;
