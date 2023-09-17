@@ -17,6 +17,14 @@
             "email": "stevyralambomanana@gmail.com"
         }
     ],
+    "scripts": {
+        "make:model": "php app.php make:model",
+        "make:controller": "php app.php make:controller",
+        "migrate:up": "php app.php migrate --direction=up",
+        "migrate:down": "php app.php migrate --direction=down"
+    },
     "minimum-stability": "dev",
-    "require": {}
+    "require-dev": {
+        "symfony/console": "7.0.x-dev"
+    }
 }

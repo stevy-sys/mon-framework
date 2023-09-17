@@ -12,7 +12,7 @@ abstract class Model {
 
     public function __construct(DBConnection $db)
     {
-        $this->db = $db;
+        $this->db = new DBConnection(DB_NAME, DB_HOST, DB_USER, DB_PWD);
     }
 
     public function all(): array
