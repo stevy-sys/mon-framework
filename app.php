@@ -23,7 +23,7 @@ $application->register('make:model')
         <?php
         namespace App\Models;
 
-        use Core\Model\Model;
+        use Stevy\Framework\Model\Model;
 
         class $modelName extends Model
         {
@@ -39,7 +39,7 @@ $application->register('make:model')
         $migrationContent = <<<EOD
         <?php
 
-        use Core\Database\Migrations;
+        use Stevy\Framework\Database\Migrations;
         
         class Migration_create_$modelName extends Migrations
         {
