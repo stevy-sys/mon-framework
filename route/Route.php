@@ -1,5 +1,8 @@
 <?php
 
+use App\Providers\AppProviders;
+AppProviders::execute();
+
 //exemple d'une route avec methode de controller
 /**
  * App\Controllers\ExampleController  : namespace ou se situe le controller

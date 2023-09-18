@@ -5,10 +5,8 @@
     "license": "stevy-sys",
     "autoload": {
         "psr-4": {
-            "Router\\": "routes/",
             "App\\": "app/",
-            "Database\\": "database/",
-            "Core\\": "core/"
+            "Route\\":"route/"
         }
     },
     "authors": [

@@ -2,9 +2,7 @@
 
 namespace App\Controllers;
 
-use Core\Controller\Controller;
-
-
+use Stevy\Framework\Controller\Controller;
 
 class ExampleController extends Controller
 {

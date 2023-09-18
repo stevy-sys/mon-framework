@@ -3,8 +3,8 @@
 require '../vendor/autoload.php';
 
 
-require '../core/Routes/RouteHead.php';
+require '../vendor/stevy/framework/src/Routes/RouteHead.php';
 
 require "../route/Route.php";
 
-require "../core/Routes/RouteExecute.php";
+require "../vendor/stevy/framework/src/Routes/RouteExecute.php";
