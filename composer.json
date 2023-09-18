@@ -21,7 +21,6 @@
         "migrate:up": "php app.php migrate --direction=up",
         "migrate:down": "php app.php migrate --direction=down"
     },
-    "minimum-stability": "dev",
     "require-dev": {
         "symfony/console": "7.0.x-dev"
     }
